@@ -1,8 +1,6 @@
-# Verschlimmbesserung
+# Hypatos
 
-An Etcd client for modern Clojure systems, built to address the needs of
-Jepsen, and probably other systems too. Uses the HTTP v2 protocol.
-Distinguishing features include:
+An HTTP client for [Consul](https://consul.io). Forked from @aphyr's [verschlimmbesserung](https://github.com/aphyr/verschlimmbesserung) which was written for Etcd (thanks, Kyle!).
 
 - Explicit client objects
 - Explicit option maps, not kwargs, for ease of composition
@@ -17,7 +15,7 @@ Distinguishing features include:
 
 ## Installation
 
-Via [Clojars](https://clojars.org/verschlimmbesserung), as usual.
+Via [Clojars](https://clojars.org/hypatos), as usual.
 
 ## Usage
 
@@ -201,6 +199,6 @@ it! :)
 
 ## License
 
-Copyright © 2014 Kyle Kingsbury <aphyr@aphyr.com>
+Copyright © 2014 Jacques Fuentes <jpfuentes2@gmail.com>
 
 Distributed under the Eclipse Public License, the same as Clojure.
