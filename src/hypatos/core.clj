@@ -1,4 +1,4 @@
-(ns verschlimmbesserung.core
+(ns hypatos.core
   "Core Raft API operations over HTTP. Clients are currently stateless, but you
   may maintain connection pools going forward. In general, one creates a client
   using (connect) and uses that client as the first argument to all API
@@ -16,7 +16,7 @@
 
   The get* variant returns the full etcd response body as a map, as specified
   by http://coreos.com/docs/distributed-configuration/etcd-api/. Note that
-  values are strings; verschlimmbesserung does not provide value
+  values are strings; hypatos does not provide value
   serialization/deserialization yet.
 
   The get variant returns a more streamlined representation: just the node

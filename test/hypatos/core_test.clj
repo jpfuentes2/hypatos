@@ -1,7 +1,7 @@
-(ns verschlimmbesserung.core-test
+(ns hypatos.core-test
   (:require [clojure.test :refer :all]
             [clojure.pprint :refer [pprint]]
-            [verschlimmbesserung.core :as v]))
+            [hypatos.core :as v]))
 
 (def c (v/connect "http://127.0.0.1:4001"))
 
